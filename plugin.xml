@@ -98,7 +98,7 @@
         <config-file target="package.appxmanifest" parent="/Package/Applications/Application/Extensions">
             <Extension Category="windows.backgroundTasks" EntryPoint="GeofenceComponent.GeofenceTrigger">
                 <BackgroundTasks>
-                    <uap:Task Type="location" />
+                    <Task Type="location" />
                 </BackgroundTasks>
             </Extension>
         </config-file>
