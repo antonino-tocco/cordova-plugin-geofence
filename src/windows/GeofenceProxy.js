@@ -16,7 +16,6 @@
             geoN.notificationTitle = geo.notification.title;
             geoN.openAppOnClick = geo.notification.openAppOnClick;
             geoN.data = JSON.stringify(geo.notification.data);
-            console.log(GeofenceComponent.GeoNotificationManager);
             GeofenceComponent.GeoNotificationManager.addOrUpdate(geoN);
         });
         success && success();
