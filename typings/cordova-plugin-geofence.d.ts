@@ -1,3 +1,4 @@
+export interface Promise<Value> extends Promise<Value> { }
 interface TransitionType {
   ENTER: number;
   EXIT: number;
